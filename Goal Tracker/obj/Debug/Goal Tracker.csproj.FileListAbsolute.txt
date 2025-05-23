@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tracker.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\GoalTrackerApp.MainForm.resources
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal_Tracker.Properties.Resources.resources
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tracker.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tracker.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Goal Tracker.exe.config
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Goal Tracker.exe
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Goal Tracker.pdb
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tra.DB8806B8.Up2Date
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tracker.exe
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\obj\Debug\Goal Tracker.pdb
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\Guna.UI2.dll
+C:\Users\admin\source\repos\program1\Goal Tracker\Goal Tracker\bin\Debug\PlantUml.Net.dll

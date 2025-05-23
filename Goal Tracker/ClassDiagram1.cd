@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Goal_Tracker.Goal">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <AssociationLine Name="DueDate" Type="System.DateTime">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.002" Y="0.435" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="PlannedTime" Type="System.DateTime">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.027" Y="-1.623" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAGAEAAAAAAEAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Goal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DueDate" />
+      <Property Name="IsCompleted" />
+      <Property Name="PlannedTime" />
+      <Property Name="Title" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Goal_Tracker.GoalManager">
+    <Position X="4.25" Y="2.25" Width="2" />
+    <AssociationLine Name="Goals" Type="Goal_Tracker.Goal">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.198" Y="0.16" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAgAABAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>GoalManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Goals" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoalTrackerApp.MainForm">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="completeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dateTimePickerDueDate" Hidden="true" />
+      <Field Name="dateTimePickerPlannedTime" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="labelProgress" Hidden="true" />
+      <Field Name="listBoxGoals" Hidden="true" />
+      <Method Name="MainForm_Load_1" Hidden="true" />
+      <Field Name="progressBar" Hidden="true" />
+      <Field Name="textBoxTitle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAQYASBAAFAAAIngFAACAMQ4ABAgAEMAAAAEAAA=</HashCode>
+      <FileName>C:\Users\admin\Documents\MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_goalManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoalTrackerApp.Program">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StorageService">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>StorageService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="FilePath" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="1.3" />
+  </Class>
+  <Struct Name="System.Char" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="1.3" />
+  </Struct>
+  <Struct Name="System.DateTime" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="1.3" />
+  </Struct>
+  <Struct Name="System.Boolean" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="1.3" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
